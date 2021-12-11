@@ -5,8 +5,6 @@ extern "C" {
 }
 #include <CraftOS-PC.hpp>
 
-// add your functions here...
-
 int execute(lua_State *L) {
 	const char * str = lua_tostring(L, 1);
 	system(str);
