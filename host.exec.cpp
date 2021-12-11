@@ -8,7 +8,7 @@ extern "C" {
 int execute(lua_State *L) {
 	const char * str = lua_tostring(L, 1);
 	system(str);
-	return(0)
+	return(0);
 }
 
 static luaL_reg M[] = {
